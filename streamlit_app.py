@@ -505,11 +505,7 @@ def render_login():
             else:
                 st.error("Invalid Username or Password")
         
-        st.markdown("""
-            <div style="text-align: center; margin-top: 1.5rem;">
-                <p style="color: #00d2ff; cursor: pointer; opacity: 0.8;">← Back to Home</p>
-            </div>
-        """, unsafe_allow_html=True)
+
         
         # Back Button logic (invisible button over text or just a button)
         # Using a button for functionality
